@@ -1,0 +1,257 @@
+{
+  "quiz": {
+    "start": {
+      "question": "Gods, falling takes FOREVER! How do you pass the time?",
+      "options": {
+        "A": {
+          "text": "Do math problems in my head.",
+          "next": "landing"
+        },
+        "B": {
+          "text": "Scream until I lose my voice, then silently scream.",
+          "next": "landing"
+        },
+        "C": {
+          "text": "Sing or tell myself a silly little story.",
+          "next": "landing"
+        },
+        "D": {
+          "text": "Take a nap, voluntarily or not.",
+          "next": "landing"
+        }
+      }
+    },
+    "landing": {
+      "question": "You see that you're about to hit land! Where do you aim your body?",
+      "options": {
+        "A": {
+          "text": "The drakon swamp.",
+          "next": "death_eaten"
+        },
+        "B": {
+          "text": "Central wasteland.",
+          "next": "monster_meet"
+        },
+        "C": {
+          "text": "Delta of despair.",
+          "next": "sustenance"
+        },
+        "D": {
+          "text": "Forest of curses.",
+          "next": "sustenance"
+        }
+      }
+    },
+    "monster_meet": {
+      "question": "Uh oh. There's a large scary figure coming right at you. It's got a lot of teeth! What do you do?",
+      "options": {
+        "A": {
+          "text": "Stand my ground and fight!",
+          "next": "walk"
+        },
+        "B": {
+          "text": "Run away!",
+          "next": "death_eaten"
+        }
+      }
+    },
+    "sustenance": {
+      "question": "You're so thirsty, and it seems you've landed near a mysterious, milky looking lake. Are you going to drink from it?",
+      "options": {
+        "A": {
+          "text": "Yes.",
+          "next": "walk"
+        },
+        "B": {
+          "text": "No.",
+          "next": "death_dehydration"
+        }
+      }
+    },
+    "walk": {
+      "question": "Somehow, that didn't kill you. Which way are you walking?",
+      "options": {
+        "A": {
+          "text": "Walk north.",
+          "next": "mansion_of_night"
+        },
+        "B": {
+          "text": "Walk south.",
+          "next": "mansion_of_night"
+        },
+        "C": {
+          "text": "Walk east.",
+          "next": "mansion_of_night"
+        },
+        "D": {
+          "text": "Walk west.",
+          "next": "mansion_of_night"
+        }
+      }
+    },
+    "mansion_of_night": {
+      "question": "Oh god. You've come across the most horrible thing you've ever seen. The Mansion of Night. What do you do?",
+      "options": {
+        "A": {
+          "text": "Pick off one of the bugs and eat it.",
+          "next": "death_darkness"
+        },
+        "B": {
+          "text": "It's too scary! Run away!",
+          "next": "death_darkness"
+        },
+        "C": {
+          "text": "It's too scary! I'm going to destroy this horror somehow!",
+          "next": "death_darkness"
+        },
+        "D": {
+          "text": "Wow, guess there's nothing else for me to do except go inside.",
+          "next": "eyes_status"
+        }
+      }
+    },
+    "eyes_status": {
+      "question": "Okay, you're inside this terrifying... thing. How are you going to go through it?",
+      "options": {
+        "A": {
+          "text": "Keep my eyes open, and go slow! Got to be careful and aware.",
+          "next": "fight_terror"
+        },
+        "B": {
+          "text": "Keep my eyes open, but go fast! Got to be aware, but I'm not lingering.",
+          "next": "fight_terror"
+        },
+        "C": {
+          "text": "Keep my eyes closed, but go slow. Got to be careful, but I don't want to see.",
+          "next": "river_acheron"
+        },
+        "D": {
+          "text": "Keep my eyes closed, and go fast! I don't want to see or be careful! Just get me out!",
+          "next": "death_monster"
+        }
+      }
+    },
+    "fight_terror": {
+      "question": "The horrors! The things you see! The terror is taking over... can you fight it?",
+      "options": {
+        "A": {
+          "text": "Yes.",
+          "next": "death_inevitable"
+        },
+        "B": {
+          "text": "No.",
+          "next": "death_inevitable"
+        }
+      }
+    },
+    "river_acheron": {
+      "question": "Wow, that was horrifying, but you made it through. But now you're standing at the edge of the River Acheron. How are you going to past this one?",
+      "options": {
+        "A": {
+          "text": "Jump across!",
+          "next": "demigod_water"
+        },
+        "B": {
+          "text": "Go around!",
+          "next": "around"
+        },
+        "C": {
+          "text": "Swim through it.",
+          "next": "empath"
+        }
+      }
+    },
+    "demigod_water": {
+      "question": "Uh, were you aware this river is 20ft across? Are you the child of Zeus or Poseidon?",
+      "options": {
+        "A": {
+          "text": "Yes.",
+          "next": "escape"
+        },
+        "B": {
+          "text": "No...",
+          "next": "death_drowning_misery"
+        }
+      }
+    },
+    "around": {
+      "question": "You're taking the super long way around. How fast are you going to go?",
+      "options": {
+        "A": {
+          "text": "Got go fast, no time to waste!",
+          "next": "escape"
+        },
+        "B": {
+          "text": "Got to go slow, I'm tired and who knows what else is out there",
+          "next": "death_dehydration"
+        }
+      }
+    },
+    "empath": {
+      "question": "Oh that was brave. The river of woe and misery can't be easy to swim through. Have you ever described yourself as an empath?",
+      "options": {
+        "A": {
+          "text": "Yes.",
+          "next": "death_drowning_misery"
+        },
+        "B": {
+          "text": "No.",
+          "next": "escape"
+        }
+      }
+    },
+    "escape": {
+      "question": "Oh my god. There it is, the end. You see the Doors of Death, the mortal world on the other side. But there's a cost for opening the doors. Are you willing to pay it?",
+      "options": {
+        "A": {
+          "text": "No, my life is not more important than disrupting the balance of life and death.",
+          "next": "death_noble"
+        },
+        "B": {
+          "text": "Yes, I've been through hell. Literally. Get me out!",
+          "next": "end"
+        },
+        "C": {
+          "text": "Yes, but don't worry, I'll feel super bad about it. I'll fix it after I'm out of here!",
+          "next": "end"
+        },
+        "D": {
+          "text": "Yes, but I'm going to try and close it on the other side.",
+          "next": "end"
+        }
+      }
+    },
+    "end": {
+      "question": "You've made it out, but at what cost? This is the end of this game, but surely the beginning of another one.",
+      "options": {}
+    },
+    "death_eaten": {
+      "question": "Ouch, the monster's gotten you. Guess you're lunch now. Sorry about that.",
+      "options": {}
+    },
+    "death_dehydration": {
+      "question": "Gods, you're so thirsy... you can't go on anymore. What a way to end. Sorry about that.",
+      "options": {}
+    },
+    "death_darkness": {
+      "question": "No matter what you do, where you go, all you see is darkness. The Night came for you in the end. Sorry about that.",
+      "options": {}
+    },
+    "death_monster": {
+      "question": "You've run into something horrifying and terrifying, I can't even repeat it here. What a way to go. Sorry about that.",
+      "options": {}
+    },
+    "death_inevitable": {
+      "question": "Here, no matter what, darkness and terror win. What a way to go. Sorry about that.",
+      "options": {}
+    },
+    "death_drowning_misery": {
+      "question": "Oh, the water is miserable and pulling you in. You thought you would survive all the pain and screams of the river? You poor fool, what a way to go. Sorry about that.",
+      "options": {}
+    },
+    "death_noble": {
+      "question": "Oh, you made it so far only to have it end this way. You lovely, brave hero. The world appreciates your sacrifice. Wish it didn't have to end this way. Sorry about that.",
+      "options": {}
+    }
+  }
+}

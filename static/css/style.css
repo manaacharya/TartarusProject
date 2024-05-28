@@ -1,0 +1,61 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    padding: 50px;
+}
+
+.container {
+    text-align: left;
+    max-width: 600px; /* Original max-width */
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    word-wrap: break-word; /* Ensure the question itself wraps */
+}
+
+h1 {
+    font-size: 2em;
+    text-align: left;
+    font-weight: 700; /* Bold for the question title */
+}
+
+form {
+    margin-top: 20px;
+}
+
+div.option-container {
+    display: flex; /* Use flexbox to align items */
+    margin-bottom: 15px;
+    flex-wrap: wrap; /* Allow wrapping within flex items */
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.start-button, .submit-button, .restart-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.start-button:hover, .submit-button:hover, .restart-button:hover {
+    background-color: #333;
+}
+
+label {
+    font-weight: 500; /* Semi-bold for the answer choices */
+    flex: 1; /* Allow the label to take available space */
+    min-width: 0; /* Allow label to shrink */
+}
